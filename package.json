@@ -1,5 +1,5 @@
 {
-  "name": "angular-avapi",
+  "name": "ngx-avapi",
   "version": "1.0.0",
   "main": "dist/index.js",
   "repository": {
