@@ -1,3 +1,3 @@
-import { MapComponent } from './map/map.component';
-import { LseComponent } from './lse/lse.component';
+import { MapComponent } from './map.component';
+import { LseComponent } from './lse.component';
 export { MapComponent, LseComponent };

@@ -5,7 +5,7 @@ declare var google;
 
 @Component({
   selector: 'map',
-  templateUrl: './map.component.html'
+  template: `<div class='vxmap' #container></div>`,
 })
 
 export class MapComponent implements AfterViewInit {

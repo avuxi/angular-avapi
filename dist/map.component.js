@@ -38,17 +38,16 @@ var MapComponent = /** @class */ (function () {
     ], MapComponent.prototype, "zoom", void 0);
     __decorate([
         ViewChild('container'),
-        __metadata("design:type", typeof (_a = typeof ElementRef !== "undefined" && ElementRef) === "function" && _a || Object)
+        __metadata("design:type", ElementRef)
     ], MapComponent.prototype, "container", void 0);
     MapComponent = __decorate([
         Component({
             selector: 'map',
-            templateUrl: './map.component.html'
+            template: "<div class='vxmap' #container></div>",
         }),
         __metadata("design:paramtypes", [])
     ], MapComponent);
     return MapComponent;
-    var _a;
 }());
 export { MapComponent };
 //# sourceMappingURL=map.component.js.map

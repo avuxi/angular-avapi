@@ -4,7 +4,13 @@ declare var AVUXI;
 
 @Component({
   selector: 'lse',
-  templateUrl: './lse.component.html'
+  template: `
+    <div class='vxlse'>
+      <span class='vxwil'
+            attr.t='{{confId}}'
+            attr.ll='{{lat}},{{lng}}'>
+      </span>
+    </div>`
 })
 
 export class LseComponent implements AfterViewInit {

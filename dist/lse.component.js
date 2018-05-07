@@ -29,7 +29,7 @@ var LseComponent = /** @class */ (function () {
     LseComponent = __decorate([
         Component({
             selector: 'lse',
-            templateUrl: './lse.component.html'
+            template: "\n    <div class='vxlse'>\n      <span class='vxwil'\n            attr.t='{{confId}}'\n            attr.ll='{{lat}},{{lng}}'>\n      </span>\n    </div>"
         }),
         __metadata("design:paramtypes", [])
     ], LseComponent);
