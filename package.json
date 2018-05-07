@@ -1,0 +1,18 @@
+{
+  "name": "angular-avapi",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avuxi/angular-avapi.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@angular/core": "^6.0.0"
+  }
+}
